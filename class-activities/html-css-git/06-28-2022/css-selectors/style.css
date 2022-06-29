@@ -1,0 +1,33 @@
+/* Universal selector. Style will be applied to all elements on page. */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* This selector will apply the style to the entire "body" sectioning root. */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* This is a class selector type */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* This is a id selector type */
+#contact-section {
+  background-color: #f0ead6;
+}
